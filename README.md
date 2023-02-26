@@ -28,7 +28,7 @@ For other users, please install all above packages following [SPSG](https://gith
 ```
 train.py --gpu 0 --data_path path_to_ff_dataset(data-geo-color-ffchole) --save path_to_save_checkpoint_folder --frame_info_path path_to_frame_info_file(data-frames) --frame_path path_to_frame_file(images) --max_epoch 6 --weight_missing_geo 12 --weight_missing_color 12 --weight_color_loss 0.6 --weight_sdf_loss 0.3 --weight_content_loss 0.01 --color_space lab
 ```
-* Trained model: [dual_stream_GAN.pth](???) (7.5M)
+* Trained model: [dual_stream_GAN.pth](https://github.com/ruby2332ruby/Free-form-3D-Scene-Inpainting/tree/main/torch/pretrained_model) (7.5M)
 
 ### Testing:
 * See `python test_scene_as_chunks.py --help` for all train options. 
